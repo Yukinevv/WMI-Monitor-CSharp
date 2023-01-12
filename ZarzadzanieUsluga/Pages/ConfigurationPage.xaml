@@ -1,0 +1,123 @@
+﻿<Page x:Class="ZarzadzanieUsluga.Pages.ConfigurationPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ZarzadzanieUsluga.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="800" d:DesignWidth="1200"
+      Title="ConfigurationPage">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="600*"/>
+            <ColumnDefinition Width="600*"/>
+        </Grid.ColumnDefinitions>
+        
+        <ListBox x:Name="InfoListBox" d:ItemsSource="{d:SampleData ItemCount=25}" Width="550" HorizontalAlignment="Right" Margin="0,20,0,20"
+                 HorizontalContentAlignment="Center" FontSize="18"/>
+
+        <Label Content="Select which information should be visible" Grid.Column="1" VerticalAlignment="Top" HorizontalAlignment="Center"
+               Margin="0,30,0,0" FontSize="20"></Label>
+        
+        <Border BorderThickness="1" BorderBrush="Black" Width="500" Height="600" VerticalAlignment="Top" HorizontalAlignment="Center"
+                Grid.Column="1" Margin="0,80,0,0">
+            <StackPanel Orientation="Vertical">
+                <StackPanel Orientation="Horizontal" Margin="10,20,0,0">
+                    <CheckBox x:Name="ProcessorPercentageUsageCheckbox" IsChecked="True" Margin="0,5,0,0"></CheckBox>
+                    <Label Content="Processor Percentage Usage" Margin="10,0,0,0"></Label>
+
+                    <CheckBox x:Name="LogicalDiskPercentageFreeSpaceCheckbox" IsChecked="True" Margin="80,5,0,0"></CheckBox>
+                    <Label Content="Logical Disk Percentage Free Space" Margin="10,0,0,0"></Label>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="10,20,0,0">
+                    <CheckBox x:Name="ProcessorPrivilegedTimeCheckbox" IsChecked="True" Margin="0,5,0,0"></CheckBox>
+                    <Label Content="Processor Privileged Time" Margin="10,0,0,0"></Label>
+
+                    <CheckBox x:Name="PhysicalAvgDiskQueueLengthCheckbox" IsChecked="True" Margin="94,5,0,0"></CheckBox>
+                    <Label Content="Physical Avg Disk Queue Length" Margin="10,0,0,0"></Label>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="10,20,0,0">
+                    <CheckBox x:Name="ProcessorInterruptTimeCheckbox" IsChecked="True" Margin="0,5,0,0"></CheckBox>
+                    <Label Content="Processor Interrupt Time" Margin="10,0,0,0"></Label>
+
+                    <CheckBox x:Name="PhysicalDiskReadBytesSecCheckbox" IsChecked="True" Margin="100,5,0,0"></CheckBox>
+                    <Label Content="Physical Disk Read Bytes Sec" Margin="10,0,0,0"></Label>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="10,20,0,0">
+                    <CheckBox x:Name="ProcessorDPCTimeCheckbox" IsChecked="True" Margin="0,5,0,0"></CheckBox>
+                    <Label Content="Processor DPC Time" Margin="10,0,0,0"></Label>
+
+                    <CheckBox x:Name="PhysicalDiskWriteBytesSecCheckbox" IsChecked="True" Margin="125,5,0,0"></CheckBox>
+                    <Label Content="Physical Disk Write Bytes Sec" Margin="10,0,0,0"></Label>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="10,20,0,0">
+                    <CheckBox x:Name="MemoryAvaibleMBytesCheckbox" IsChecked="True" Margin="0,5,0,0"></CheckBox>
+                    <Label Content="Memory Avaible MBytes" Margin="10,0,0,0"></Label>
+
+                    <CheckBox x:Name="PhysicalAvgDiskReadSecCheckbox" IsChecked="True" Margin="105,5,0,0"></CheckBox>
+                    <Label Content="Physical Avg Disk Read Sec" Margin="10,0,0,0"></Label>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="10,20,0,0">
+                    <CheckBox x:Name="MemoryCommitedBytesCheckbox" IsChecked="True" Margin="0,5,0,0"></CheckBox>
+                    <Label Content="Memory Commited Bytes" Margin="10,0,0,0"></Label>
+
+                    <CheckBox x:Name="PhysicalAvgDiskWriteSecCheckbox" IsChecked="True" Margin="100,5,0,0"></CheckBox>
+                    <Label Content="Physical Avg Disk Write Sec" Margin="10,0,0,0"></Label>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="10,20,0,0">
+                    <CheckBox x:Name="MemoryCommitLimitCheckbox" IsChecked="True" Margin="0,5,0,0"></CheckBox>
+                    <Label Content="Memory Commit Limit" Margin="10,0,0,0"></Label>
+
+                    <CheckBox x:Name="PhysicalPercentageDiskTimeCheckbox" IsChecked="True" Margin="117,5,0,0"></CheckBox>
+                    <Label Content="Physical Percentage Disk Time" Margin="10,0,0,0"></Label>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="10,20,0,0">
+                    <CheckBox x:Name="MemoryCommitedBytesInUseCheckbox" IsChecked="True" Margin="0,5,0,0"></CheckBox>
+                    <Label Content="MemoryCommitedBytesInUse" Margin="10,0,0,0"></Label>
+
+                    <CheckBox x:Name="ProcessHandleCountCheckbox" IsChecked="True" Margin="80,5,0,0"></CheckBox>
+                    <Label Content="Process Handle Count" Margin="10,0,0,0"></Label>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="10,20,0,0">
+                    <CheckBox x:Name="MemoryPoolPagedBytesCheckbox" IsChecked="True" Margin="0,5,0,0"></CheckBox>
+                    <Label Content="Memory Pool Paged Bytes" Margin="10,0,0,0"></Label>
+
+                    <CheckBox x:Name="ProcessThreadCountCheckbox" IsChecked="True" Margin="100,5,0,0"></CheckBox>
+                    <Label Content="Process Thread Count" Margin="10,0,0,0"></Label>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="10,20,0,0">
+                    <CheckBox x:Name="MemoryPoolNonPagedBytesCheckbox" IsChecked="True" Margin="0,5,0,0"></CheckBox>
+                    <Label Content="Memory Pool Non Paged Bytes" Margin="10,0,0,0"></Label>
+
+                    <CheckBox x:Name="SystemContextSwitchesSecCheckbox" IsChecked="True" Margin="75,5,0,0"></CheckBox>
+                    <Label Content="System Context Switches Sec" Margin="10,0,0,0"></Label>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="10,20,0,0">
+                    <CheckBox x:Name="MemoryCachedBytesCheckbox" IsChecked="True" Margin="0,5,0,0"></CheckBox>
+                    <Label Content="Memory Cached Bytes" Margin="10,0,0,0"></Label>
+
+                    <CheckBox x:Name="SystemCallSecCheckbox" IsChecked="True" Margin="123,5,0,0"></CheckBox>
+                    <Label Content="System Call Sec" Margin="10,0,0,0"></Label>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="10,20,0,0">
+                    <CheckBox x:Name="PagingFileUsageCheckbox" IsChecked="True" Margin="0,5,0,0"></CheckBox>
+                    <Label Content="Paging File Usage" Margin="10,0,0,0"></Label>
+
+                    <CheckBox x:Name="SystemProcessorQueueLengthCheckbox" IsChecked="True" Margin="148,5,0,0"></CheckBox>
+                    <Label Content="System Processor Queue Length" Margin="10,0,0,0"></Label>
+                </StackPanel>
+            </StackPanel>
+        </Border>
+
+        <Button x:Name="WyczyscButton" Content="Clear list" Width="150" Height="35" HorizontalAlignment="Left" VerticalAlignment="Bottom" Grid.Column="1"
+                Click="WyczyscButton_Click" Margin="50,0,0,50" Style="{StaticResource buttonStyle1}"></Button>
+
+        <Button x:Name="ZaznaczWszystkieButton" Content="Check all" Width="150" Height="35" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Bottom"
+                Margin="0,0,0,50" Click="ZaznaczWszystkieButton_Click" Style="{StaticResource buttonStyle1}"></Button>
+        
+        <Button x:Name="OdznaczWszystkieButton" Content="Uncheck all" Width="150" Height="35" Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Bottom"
+                Margin="0,0,50,50" Click="OdznaczWszystkieButton_Click" Style="{StaticResource buttonStyle1}"></Button>
+
+    </Grid>
+</Page>

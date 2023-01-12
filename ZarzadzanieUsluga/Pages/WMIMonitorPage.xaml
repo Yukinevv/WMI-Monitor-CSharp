@@ -1,0 +1,47 @@
+﻿<Page x:Class="ZarzadzanieUsluga.Pages.WMIMonitorPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ZarzadzanieUsluga.Pages"
+      xmlns:cpb="clr-namespace:ZarzadzanieUsluga.UserControls"
+      xmlns:Wpf="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+      mc:Ignorable="d" 
+      d:DesignHeight="800" d:DesignWidth="1200"
+      Title="WMIMonitorPage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50*"/>
+            <RowDefinition Height="300*"/>
+        </Grid.RowDefinitions>
+
+        <Label Content="WMI Monitor" HorizontalAlignment="Center" Margin="0,20,0,0" VerticalAlignment="Top" FontSize="28" FontWeight="Bold"/>
+        <Label Content="Processor Usage" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="70,0,0,0" FontSize="20"></Label>
+        <cpb:CircularProgressBar x:Name="CircularProgressBar" Width="250" Height="250" Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Top"
+                                 Margin="30,10,0,0"/>
+        <Label Content="Memory Usage" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0,0,300,0" FontSize="20"></Label>
+        <cpb:CircularProgressBar x:Name="CircularProgressBar2" Width="250" Height="250" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Top"
+                                 Margin="0,10,300,0"/>
+        <Label Content="Disk Usage" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="300,0,0,0" FontSize="20"></Label>
+        <cpb:CircularProgressBar x:Name="CircularProgressBar3" Width="250" Height="250" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Top"
+                                 Margin="300,10,0,0"/>
+        <Label Content="Memory Commited Bytes" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,40,0" FontSize="20"></Label>
+        <cpb:CircularProgressBar x:Name="CircularProgressBar4" Width="250" Height="250" Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Top"
+                                 Margin="0,10,30,0"/>
+        <Frame x:Name="ChartFrame" Content="" NavigationUIVisibility="Hidden" Grid.Row="1" Grid.RowSpan="2" VerticalAlignment="Bottom" HorizontalAlignment="Left"
+               Height="400" Width="1000" Margin="20,0,0,0"></Frame>
+
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Right" VerticalAlignment="Bottom" Grid.Row="2" Width="150" Height="350" Margin="0,0,15,0">
+            <Button x:Name="ProcessorChartButton" Content="Processor chart" Width="150" Height="35" Margin="0,25,0,0" Click="ProcessorChartButton_Click"
+                    Style="{StaticResource buttonStyle1}"></Button>
+            <Button x:Name="MemoryChartButton" Content="Memory chart" Width="150" Height="35" Margin="0,20,0,0" Click="MemoryChartButton_Click"
+                    Style="{StaticResource buttonStyle1}"></Button>
+            <Button x:Name="DiskChartButton" Content="Disk chart" Width="150" Height="35" Margin="0,20,0,0" Click="DiskChartButton_Click"
+                    Style="{StaticResource buttonStyle1}"></Button>
+            <Button x:Name="SystemChartButton" Content="System chart" Width="150" Height="35" Margin="0,20,0,0" Click="SystemChartButton_Click"
+                    Style="{StaticResource buttonStyle1}"></Button>
+        </StackPanel>
+
+    </Grid>
+</Page>
