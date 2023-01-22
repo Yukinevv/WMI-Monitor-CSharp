@@ -2,13 +2,13 @@
 using Newtonsoft.Json;
 using System;
 using System.Management;
-using System.ServiceModel;
 using System.ServiceProcess;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using ZarzadzanieUsluga.ChartPages;
+using ZarzadzanieUsluga.ServiceReference1;
 
 namespace ZarzadzanieUsluga.Pages
 {
@@ -19,21 +19,10 @@ namespace ZarzadzanieUsluga.Pages
     {
         public static HardwareInfo HardwareData { get; set; } = new HardwareInfo(); // przychodzi z uslugi przez WCF
 
-        private bool polaczono = false;
-
-        private IMessageService Proxy = null;
-
         private ChartProcessor chartProcessor = new ChartProcessor();
         private ChartMemory chartMemory = new ChartMemory();
         private ChartDisk chartDisk = new ChartDisk();
         private ChartSystem chartSystem = new ChartSystem();
-
-        [ServiceContract]
-        public interface IMessageService
-        {
-            [OperationContract]
-            string GetMessage();
-        }
 
         public WMIMonitorPage()
         {
@@ -58,17 +47,7 @@ namespace ZarzadzanieUsluga.Pages
 
         private void SetHardwareData()
         {
-            if (polaczono == false)
-            {
-                string uri = "net.tcp://localhost:6565/MessageService";
-                NetTcpBinding binding = new NetTcpBinding(SecurityMode.None);
-                var channel = new ChannelFactory<IMessageService>(binding);
-                var endPoint = new EndpointAddress(uri);
-                Proxy = channel.CreateChannel(endPoint);
-
-                polaczono = true;
-            }
-
+            MessageServiceClient messageServiceClient = new MessageServiceClient();
             string result;
 
             ManagementObjectSearcher search = new ManagementObjectSearcher("Select * From Win32_ComputerSystem");
@@ -83,7 +62,7 @@ namespace ZarzadzanieUsluga.Pages
             {
                 while (1 == 1)
                 {
-                    result = Proxy?.GetMessage();
+                    result = messageServiceClient.GetMessage();
                     if (result != null)
                     {
                         HardwareData = JsonConvert.DeserializeObject<HardwareInfo>(result);

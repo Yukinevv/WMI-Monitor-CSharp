@@ -15,74 +15,92 @@
     {
         "Entry"
         {
+        "MsmKey" = "8:_061D016A129CDB0CD1C89ECC5A55C5E3"
+        "OwnerKey" = "8:_222A41A79A204964A4F09F276E6C2A03"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_061D016A129CDB0CD1C89ECC5A55C5E3"
+        "OwnerKey" = "8:_3B0286E791A545F58BF08BEDFECDFF70"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_061D016A129CDB0CD1C89ECC5A55C5E3"
+        "OwnerKey" = "8:_93476B019645C07925816F8D47F76806"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_222A41A79A204964A4F09F276E6C2A03"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_341D0A67925145E582662BD9E9B17265"
+        "MsmKey" = "8:_3B0286E791A545F58BF08BEDFECDFF70"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_38E78C115A94DC8B43A9BE6792AB052F"
+        "MsmKey" = "8:_4DBF937E6D8E6206629C36AFE7CAF283"
+        "OwnerKey" = "8:_3B0286E791A545F58BF08BEDFECDFF70"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_7CE05661A544E7046623AD8AD8C9BE3D"
         "OwnerKey" = "8:_222A41A79A204964A4F09F276E6C2A03"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_38E78C115A94DC8B43A9BE6792AB052F"
-        "OwnerKey" = "8:_341D0A67925145E582662BD9E9B17265"
+        "MsmKey" = "8:_7CE05661A544E7046623AD8AD8C9BE3D"
+        "OwnerKey" = "8:_3B0286E791A545F58BF08BEDFECDFF70"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_B3ED713CD6D8F797327E4B53E52BD2A6"
-        "OwnerKey" = "8:_341D0A67925145E582662BD9E9B17265"
+        "MsmKey" = "8:_7CE05661A544E7046623AD8AD8C9BE3D"
+        "OwnerKey" = "8:_93476B019645C07925816F8D47F76806"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_B3ED713CD6D8F797327E4B53E52BD2A6"
-        "OwnerKey" = "8:_C0D4AF0F220D4A4D0C125F8A800357DF"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_C0D4AF0F220D4A4D0C125F8A800357DF"
-        "OwnerKey" = "8:_341D0A67925145E582662BD9E9B17265"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_D31BC24FA1160EF82E2EF19CA33F57EC"
+        "MsmKey" = "8:_93476B019645C07925816F8D47F76806"
         "OwnerKey" = "8:_222A41A79A204964A4F09F276E6C2A03"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_D31BC24FA1160EF82E2EF19CA33F57EC"
-        "OwnerKey" = "8:_341D0A67925145E582662BD9E9B17265"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_E7791F2FA6069343F88F0660AFAF52F5"
         "OwnerKey" = "8:_222A41A79A204964A4F09F276E6C2A03"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_E7791F2FA6069343F88F0660AFAF52F5"
-        "OwnerKey" = "8:_341D0A67925145E582662BD9E9B17265"
+        "MsmKey" = "8:_D31BC24FA1160EF82E2EF19CA33F57EC"
+        "OwnerKey" = "8:_3B0286E791A545F58BF08BEDFECDFF70"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_F57C007E38B8FEF4CAB44694070FDF30"
-        "OwnerKey" = "8:_341D0A67925145E582662BD9E9B17265"
+        "MsmKey" = "8:_EC70D1A42900B143C882780E3AF71DB9"
+        "OwnerKey" = "8:_3B0286E791A545F58BF08BEDFECDFF70"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_F994E68B1F3BEDA0D01DAEE9420F1F01"
+        "OwnerKey" = "8:_3B0286E791A545F58BF08BEDFECDFF70"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_F994E68B1F3BEDA0D01DAEE9420F1F01"
+        "OwnerKey" = "8:_4DBF937E6D8E6206629C36AFE7CAF283"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -94,37 +112,43 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_341D0A67925145E582662BD9E9B17265"
+        "OwnerKey" = "8:_3B0286E791A545F58BF08BEDFECDFF70"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_F57C007E38B8FEF4CAB44694070FDF30"
+        "OwnerKey" = "8:_EC70D1A42900B143C882780E3AF71DB9"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_C0D4AF0F220D4A4D0C125F8A800357DF"
+        "OwnerKey" = "8:_4DBF937E6D8E6206629C36AFE7CAF283"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_B3ED713CD6D8F797327E4B53E52BD2A6"
+        "OwnerKey" = "8:_F994E68B1F3BEDA0D01DAEE9420F1F01"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_38E78C115A94DC8B43A9BE6792AB052F"
+        "OwnerKey" = "8:_93476B019645C07925816F8D47F76806"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_E7791F2FA6069343F88F0660AFAF52F5"
+        "OwnerKey" = "8:_061D016A129CDB0CD1C89ECC5A55C5E3"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_7CE05661A544E7046623AD8AD8C9BE3D"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -284,14 +308,14 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_38E78C115A94DC8B43A9BE6792AB052F"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_061D016A129CDB0CD1C89ECC5A55C5E3"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_38E78C115A94DC8B43A9BE6792AB052F"
+                    "_061D016A129CDB0CD1C89ECC5A55C5E3"
                     {
                     "Name" = "8:Newtonsoft.Json.dll"
                     "Attributes" = "3:512"
@@ -315,20 +339,20 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_B3ED713CD6D8F797327E4B53E52BD2A6"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_4DBF937E6D8E6206629C36AFE7CAF283"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:LiveCharts, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:LiveCharts.Wpf, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_B3ED713CD6D8F797327E4B53E52BD2A6"
+                    "_4DBF937E6D8E6206629C36AFE7CAF283"
                     {
-                    "Name" = "8:LiveCharts.dll"
+                    "Name" = "8:LiveCharts.Wpf.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:LiveCharts.dll"
+            "SourcePath" = "8:LiveCharts.Wpf.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_54A44E2D01004DCEB62509EE9610BCCC"
@@ -346,20 +370,51 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_C0D4AF0F220D4A4D0C125F8A800357DF"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_7CE05661A544E7046623AD8AD8C9BE3D"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:LiveCharts.Wpf, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:Biblioteka, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_C0D4AF0F220D4A4D0C125F8A800357DF"
+                    "_7CE05661A544E7046623AD8AD8C9BE3D"
                     {
-                    "Name" = "8:LiveCharts.Wpf.dll"
+                    "Name" = "8:Biblioteka.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:LiveCharts.Wpf.dll"
+            "SourcePath" = "8:Biblioteka.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_54A44E2D01004DCEB62509EE9610BCCC"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_93476B019645C07925816F8D47F76806"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:WcfServiceLibrary1, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_93476B019645C07925816F8D47F76806"
+                    {
+                    "Name" = "8:WcfServiceLibrary1.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:WcfServiceLibrary1.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_54A44E2D01004DCEB62509EE9610BCCC"
@@ -408,20 +463,20 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_E7791F2FA6069343F88F0660AFAF52F5"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_EC70D1A42900B143C882780E3AF71DB9"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Biblioteka, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:Microsoft.Expression.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_E7791F2FA6069343F88F0660AFAF52F5"
+                    "_EC70D1A42900B143C882780E3AF71DB9"
                     {
-                    "Name" = "8:Biblioteka.dll"
+                    "Name" = "8:Microsoft.Expression.Drawing.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:Biblioteka.dll"
+            "SourcePath" = "8:Microsoft.Expression.Drawing.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_54A44E2D01004DCEB62509EE9610BCCC"
@@ -439,20 +494,20 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_F57C007E38B8FEF4CAB44694070FDF30"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_F994E68B1F3BEDA0D01DAEE9420F1F01"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Microsoft.Expression.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:LiveCharts, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_F57C007E38B8FEF4CAB44694070FDF30"
+                    "_F994E68B1F3BEDA0D01DAEE9420F1F01"
                     {
-                    "Name" = "8:Microsoft.Expression.Drawing.dll"
+                    "Name" = "8:LiveCharts.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:Microsoft.Expression.Drawing.dll"
+            "SourcePath" = "8:LiveCharts.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_54A44E2D01004DCEB62509EE9610BCCC"
@@ -1048,7 +1103,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_222A41A79A204964A4F09F276E6C2A03"
             {
-            "SourcePath" = "8:..\\Usluga\\obj\\Debug\\Usluga.exe"
+            "SourcePath" = "8:..\\Usluga\\obj\\Release\\Usluga.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_54A44E2D01004DCEB62509EE9610BCCC"
@@ -1074,9 +1129,9 @@
                 {
                 }
             }
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_341D0A67925145E582662BD9E9B17265"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_3B0286E791A545F58BF08BEDFECDFF70"
             {
-            "SourcePath" = "8:..\\ZarzadzanieUsluga\\obj\\Debug\\ZarzadzanieUsluga.exe"
+            "SourcePath" = "8:..\\ZarzadzanieUsluga\\obj\\Release\\ZarzadzanieUsluga.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_54A44E2D01004DCEB62509EE9610BCCC"

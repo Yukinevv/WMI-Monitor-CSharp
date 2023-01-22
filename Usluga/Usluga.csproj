@@ -80,6 +80,10 @@
       <Project>{071ae959-26ac-4429-a774-cdb7fc5630e7}</Project>
       <Name>Biblioteka</Name>
     </ProjectReference>
+    <ProjectReference Include="..\WcfServiceLibrary1\WcfServiceLibrary1.csproj">
+      <Project>{8290F872-B38F-4C13-B1B1-20C3FA6DC092}</Project>
+      <Name>WcfServiceLibrary1</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
